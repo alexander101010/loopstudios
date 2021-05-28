@@ -1,0 +1,59 @@
+.card {
+  border: 1px solid goldenrod;
+  height: 430px;
+  width: 250px;
+  padding: 3rem;
+  position: relative;
+  background-size: cover;
+  transition: all 0.4s;
+
+  &:hover {
+    cursor: pointer;
+    h3 {
+      z-index: 100;
+      color: $color-black;
+    }
+  }
+
+  h3 {
+    color: $color-white;
+    text-transform: uppercase;
+    // font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    // font-family: 'Josefin Sans', sans-serif;
+  }
+
+  &-1 {
+    background-image: url('../../images/desktop/image-deep-earth.jpg');
+    &:hover {
+      filter: opacity(0.2);
+    }
+  }
+  &-2 {
+    background-image: url('../../images/desktop/image-night-arcade.jpg');
+  }
+  &-3 {
+    background-image: url('../../images/desktop/image-soccer-team.jpg');
+  }
+  &-4 {
+    background-image: url('../../images/desktop/image-grid.jpg');
+  }
+  &-5 {
+    background-image: url('../../images/desktop/image-from-above.jpg');
+  }
+  &-6 {
+    background-image: url('../../images/desktop/image-pocket-borealis.jpg');
+  }
+  &-7 {
+    background-image: url('../../images/desktop/image-curiosity.jpg');
+  }
+  &-8 {
+    background-image: url('../../images/desktop/image-fisheye.jpg');
+  }
+}
