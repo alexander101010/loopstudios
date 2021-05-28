@@ -1,0 +1,27 @@
+.secondary-heading {
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 300;
+  font-family: 'Josefin Sans', sans-serif;
+
+  color: $color-black;
+
+  &__box {
+    border: 5rem solid $color-white;
+    width: 44%;
+    position: absolute;
+    right: 10rem;
+    bottom: -5rem;
+    z-index: 10;
+    background-color: $color-white;
+    padding: 4rem 4rem 0 4rem;
+    // padding: 4rem;
+  }
+  &__text {
+    color: $color-dark-gray;
+    margin-top: 2rem;
+    width: 98%;
+    line-height: 1.8;
+    // color: $color-white;
+  }
+}
