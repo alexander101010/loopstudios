@@ -1,0 +1,36 @@
+.section {
+  &-sub-heading {
+    position: relative;
+
+    .vr-pic__box {
+      height: 50rem;
+      position: relative;
+      z-index: 1;
+    }
+    .vr-pic {
+      margin-left: $side-margin-desktop;
+      margin-top: $side-margin-desktop;
+      background-image: url('../images/desktop/image-interactive.jpg');
+      background-size: fit;
+      background-repeat: no-repeat;
+      height: 100%;
+    }
+  }
+
+  /////////////////////////////////
+  &-creations {
+    margin: $side-margin-desktop;
+
+    &__heading {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0;
+    }
+
+    &__card-box {
+      margin-top: 7rem;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
