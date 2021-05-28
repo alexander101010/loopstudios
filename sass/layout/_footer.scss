@@ -1,0 +1,29 @@
+.footer {
+  background-color: black;
+  padding: 0 $side-margin-desktop;
+  padding-top: 4rem;
+
+  &__line {
+    display: flex;
+    justify-content: space-between;
+
+    &-1 {
+      font-size: 1.7rem;
+    }
+  }
+
+  &__company {
+    color: $color-white;
+    // font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Alata', sans-serif;
+  }
+
+  &__links {
+  }
+
+  &__socials {
+  }
+  &__copyright {
+    color: $color-very-dark-gray;
+  }
+}
